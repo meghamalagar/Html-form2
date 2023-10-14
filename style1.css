@@ -1,0 +1,46 @@
+.two{ 
+               
+    width: 40%;
+    background-color: aqua;
+    animation: animate 10s linear infinite;
+    border: 2px ridge red;
+    border-radius: 10px;
+   margin-left: 450px;    
+}
+@keyframes animate{
+    0%{
+        background-color: aliceblue;
+    }
+    10%{
+        background-color: yellow;
+    }
+    2%{
+        background-color: orange;
+    }
+    30%{
+        background-color: green;
+    }
+}
+.five{
+    font-size: 50px;
+    color: darkgreen;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.three{
+    color:brown;
+    font-family: cursive;
+    
+}
+.four{
+    border: 2px ridge red;
+    background-color: antiquewhite;
+
+}
+
+#one{
+    background-color: aqua;
+    font-size: 20px;
+}
+#one:hover{
+    background-color: brown;
+}
